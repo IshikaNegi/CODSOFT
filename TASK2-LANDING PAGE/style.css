@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#D0D3D6;
+    position: relative;
+}
+#nav{
+    width: 110%;
+    height:90px;
+   padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 25px;
+    margin-right: 170px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#nav-part1 h4{
+    margin-right: 40px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav-part1 h4:hover{
+    color: whitesmoke;
+  }
+
+    #nav-part2 i{
+    margin-right: 90px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav-part2 i:hover{
+    color: whitesmoke;
+  }
+
+#content{
+    width: 100%;
+    height: calc(100%-110px);
+
+   position: relative;
+    display: flex;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    padding: 90px 150px;
+}
+#left h5{
+    font-size: 15px;
+    margin-bottom: 15px ;
+    color:#707070;
+    
+}
+#left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+
+}
+#left p{
+    font-size: 15px;
+    width: 150%;
+    margin-bottom: 30px;
+}
+ #left button{
+      background-color: black;
+      color: #fff;
+      font-weight: 500;
+      padding: 10px 26px;
+      border-radius: 50px ;
+      border-top-left-radius: 0px;
+      font-size: 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+}
+#left button:hover{
+      color: aqua;
+}
+
+
+#right{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    padding: 80px;
+    white-space: nowrap;
+    overflow-x:auto ;
+}
+.elem{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.elem img{
+    height: 25%;
+    width: 25%;
+    top: 30%;
+    object-fit: cover;
+    position: absolute;
+}
+.elem h4{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    bottom: 74px;
+    right: 598px;
+    background-color: #D0D4D5;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+.elem h5{
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 240px;
+    bottom: 220px;
+    right: 598px;
+    background-color: black;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-style: 600;
+}
+
+.elem h5:hover{
+    color: aqua;
+}
